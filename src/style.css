@@ -1,0 +1,108 @@
+body{
+    background-color: aquamarine;
+    background-image: url(../src/todobg.jpg);
+    background-size: cover;
+    text-align: center;
+    /* margin-top: 20px; */
+    height: 100vh;
+    /* width: 100%; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.align{
+    text-align: justify;
+}
+/* Login Page */
+form{
+    margin: 10% auto;
+    padding: 5%;
+    border: 1px solid;
+    width: fit-content;
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    
+}
+label{
+    text-align: left;
+    
+}
+/* Login Button */
+#login{
+    width: 150px;
+    background-image: linear-gradient(#0000,rgb(255, 255, 255));
+    border-radius: 30px;
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(5, 5, 83);
+}
+#login:hover{
+    background-image: linear-gradient(#c560e4,#151125);
+    color: white;
+    transform: translate(ease);
+    transition: ease;
+}
+/* Main/Home page  */
+.logo{
+    width: 50px;
+}
+header{
+    background-image: linear-gradient(#c560e4,#151125);
+    color: rgb(253, 253, 253);
+    min-height: 50px;
+    border-bottom: rgb(95, 168, 170) 3px thin;
+}
+.bg{
+    background: rgb(238, 227, 237) ;
+}
+.text{
+    /* text-align: center; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    
+    margin-left: 33%;
+    margin-top: 10%;
+    background-color: rgba(105, 100, 104, 0.15);
+}
+.text:hover{
+    background-color: #0000;
+    background-color: rgba(214, 130, 189, 15%);
+}
+    
+}
+.todo{
+    font-weight: bold;
+}
+/* To Do List Page */
+#head{
+    background-image: linear-gradient(#092446,#312e2e);
+    color: azure;
+    font-style: italic;
+    text-shadow: 2px 2px 5px #0ff0e4;
+}
+#head:hover{
+    text-shadow: 2px 2px 5px #17009a;
+}
+#listdiv{
+    padding: 10px;
+}
+#tbl1{
+    background: #8ad1f1;
+    margin-left: 10%;
+    border-collapse: collapse;
+    border: 2px solid rgb(55, 0, 128); 
+}
+th{
+    color: aliceblue;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+th, td{
+    border: 1px solid rgb(55, 0, 128);
+    padding: 5px;
+    font-weight: bolder;
+}
+a:hover{
+    cursor:pointer;
+
+}
